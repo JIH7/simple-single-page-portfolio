@@ -1,0 +1,11 @@
+{
+  "name": "single-page-developer-portfolio",
+  "version": "1.0.0",
+  "description": "![Design preview for the Single-page developer portfolio coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch ./:./"
+  },
+  "author": "Jeremy Helsel",
+  "license": "ISC"
+}

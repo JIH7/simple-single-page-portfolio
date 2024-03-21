@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Single-page developer portfolio</title>
+</head>
+<body>
+  <img src="./assets/images/image-profile-tablet.webp" alt="image-profile-tablet" class="profile-tablet">
+  
+  <main>
+    <header>
+      <img src="./assets/images/image-profile-desktop.webp" alt="image-profile-desktop" class="profile-desktop">
+      <h4>adamkeyes</h4>
+      <nav class="socials-links">
+        <a href="#">
+          <img src="./assets/images/icon-github.svg" alt="github">
+          <img src="./assets/images/icon-github.svg" alt="github" class="fader">
+        </a>
+        <a href="#">
+          <img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor">
+          <img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor" class="fader">
+        </a>
+        <a href="#">
+          <img src="./assets/images/icon-linkedin.svg" alt="linkedin">
+          <img src="./assets/images/icon-linkedin.svg" alt="linkedin" class="fader">
+        </a>
+        <a href="#">
+          <img src="./assets/images/icon-twitter.svg" alt="twitter">
+          <img src="./assets/images/icon-twitter.svg" alt="twitter" class="fader">
+        </a>
+      </nav>
+      <img src="./assets/images/pattern-rings.svg" alt="pattern-rings" class="pattern-rings-1">
+      <div class="pattern-circle">
+        <img src="./assets/images/pattern-circle.svg" alt="pattern-circle" >
+      </div>
+        <img src="./assets/images/image-profile-mobile.webp" alt="profile-mobile" class="profile-mobile">
+    </header>
+    <section class="intro">
+      <h1>Nice to meet you! I'm <span>Adam Keyes.</span></h1>
+
+      <p>Based in the UK, I'm a front-end developer passionate about 
+      building accessible web apps that users love.</p>
+
+      <a href="#contact">CONTACT ME</a>
+    </section>
+    <section class="skills">
+      <div>
+        <h3>HTML</h3>
+        <p>4 Years Experience</p>
+      </div>
+
+      <div>
+        <h3>CSS</h3>
+        <p>4 Years Experience</p>
+      </div>
+
+      <div>
+        <h3>JavaScript</h3>
+        <p>4 Years Experience</p>
+      </div>
+
+      <div>
+        <h3>Accessibility</h3>
+        <p>4 Years Experience</p>
+      </div>
+
+      <div>
+        <h3>React</h3>
+        <p>3 Years Experience</p>
+      </div>
+
+      <div>
+        <h3>Sass</h3>
+        <p>3 Years Experience</p>
+      </div>
+      <div class="pattern-rings-2">
+        <img src="./assets/images/pattern-rings.svg" alt="pattern-rings">
+      </div>
+      </section>
+    <section class="projects">
+      <div class="projects-header">
+        <h2>Projects</h2>
+        <a href="#contact">CONTACT ME</a>
+      </div>
+      <article>
+        <img src="./assets/images/thumbnail-project-1-small.webp" alt="img1-small" class="thumbnail-mobile">
+        <h3>Design portfolio</h3>
+        <div><span>HTML</span> <span>CSS</span></div>
+        <div>
+          <a href="#">View project</a>
+          <a href="#">View code</a>
+        </div>
+      </article>
+      <article>
+        <img src="./assets/images/thumbnail-project-2-small.webp" alt="img2-small" class="thumbnail-mobile">
+        <h3>E-learning landing page</h3>
+        <div><span>HTML</span> <span>CSS</span></div>
+        <div>
+          <a href="#">View project</a>
+          <a href="#">View code</a>
+        </div>
+      </article>
+      <article>
+        <img src="./assets/images/thumbnail-project-3-small.webp" alt="img3-small" class="thumbnail-mobile">
+        <h3>Todo web app</h3>
+        <div><span>HTML</span> <span>CSS</span> <span>JavaScript</span></div>
+        <div>
+          <a href="#">View project</a>
+          <a href="#">View code</a>
+        </div>
+      </article>
+      <article>
+        <img src="./assets/images/thumbnail-project-4-small.webp" alt="img4-small" class="thumbnail-mobile">
+        <h3>Entertainment web app</h3>
+        <div><span>HTML</span> <span>CSS</span> <span>JavaScript</span></div>
+        <div>
+          <a href="#">View project</a>
+          <a href="#">View code</a>
+        </div>
+      </article>
+      <article>
+        <img src="./assets/images/thumbnail-project-5-small.webp" alt="img5-small" class="thumbnail-mobile">
+        <h3>Memory Game</h3>
+        <div><span>HTML</span> <span>CSS</span> <span>JavaScript</span></div>
+        <div>
+          <a href="#">View project</a>
+          <a href="#">View code</a>
+        </div>
+      </article>
+      <article>
+        <img src="./assets/images/thumbnail-project-6-small.webp" alt="img6-small" class="thumbnail-mobile">
+        <h3>Art gallery showcase</h3>
+        <div><span>HTML</span> <span>CSS</span> <span>JavaScript</span></div>
+        <div>
+          <a href="#">View project</a>
+          <a href="#">View code</a>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <section class="contact" id="contact">
+      <div>
+        <h2>Contact</h2>
+        <p>I would love to hear about your project and how I could help. Please 
+        fill in the form, and I’ll get back to you as soon as possible.</p>
+      </div>
+      
+      <form onsubmit="submitForm(event)">
+        <div>
+          <input type="text" name="name" id="name" placeholder="NAME">
+          <p id="name-error"></p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" id="name-error-logo">
+            <circle cx="12" cy="12" r="11.5" stroke="#FF6F5B"/>
+            <rect x="11" y="6" width="2" height="9" rx="1" fill="#FF6F5B"/>
+            <rect x="11" y="17" width="2" height="2" rx="1" fill="#FF6F5B"/>
+          </svg>
+        </div>
+        <div>
+          <input type="email" name="email" id="email" placeholder="EMAIL">
+          <p id="email-error"></p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" id="email-error-logo">
+            <circle cx="12" cy="12" r="11.5" stroke="#FF6F5B"/>
+            <rect x="11" y="6" width="2" height="9" rx="1" fill="#FF6F5B"/>
+            <rect x="11" y="17" width="2" height="2" rx="1" fill="#FF6F5B"/>
+          </svg>
+        </div>
+        <div>
+          <textarea name="message" id="message" placeholder="MESSAGE" cols="30" rows="10"></textarea>
+          <p id="message-error"></p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" id="message-error-logo">
+            <circle cx="12" cy="12" r="11.5" stroke="#FF6F5B"/>
+            <rect x="11" y="6" width="2" height="9" rx="1" fill="#FF6F5B"/>
+            <rect x="11" y="17" width="2" height="2" rx="1" fill="#FF6F5B"/>
+          </svg>
+        </div>
+        <input type="submit" value="SEND MESSAGE">
+      </form>
+    </section>
+
+    <section>
+      <img src="./assets/images/pattern-rings.svg" alt="pattern-rings" class="pattern-rings-3">
+      <h4>adamkeyes</h4>
+      <nav class="socials-links">
+        <a href="#">
+          <img src="./assets/images/icon-github.svg" alt="github">
+          <img src="./assets/images/icon-github.svg" alt="github" class="fader">
+        </a>
+        <a href="#">
+          <img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor">
+          <img src="./assets/images/icon-frontend-mentor.svg" alt="frontend-mentor" class="fader">
+        </a>
+        <a href="#">
+          <img src="./assets/images/icon-linkedin.svg" alt="linkedin">
+          <img src="./assets/images/icon-linkedin.svg" alt="linkedin" class="fader">
+        </a>
+        <a href="#">
+          <img src="./assets/images/icon-twitter.svg" alt="twitter">
+          <img src="./assets/images/icon-twitter.svg" alt="twitter" class="fader">
+        </a>
+      </nav>
+    </section>
+  </footer>
+  <script src="contact.js"></script>
+</body>
+</html>
