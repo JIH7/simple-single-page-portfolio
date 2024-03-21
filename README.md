@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor Solution]()
-- [Live Site]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/single-page-developer-portfolio-GgmBg1a7f0)
+- [Live Site](https://helsel-example-portfolio.netlify.app/)
 
 ## My process
 
