@@ -25,7 +25,7 @@ function submitForm(event) {
     messageErrorLogo.style.display = 'none';
 
     if (!validateName(nameField.value)) {
-        nameErrorText.innerText = 'Name is required';
+        nameErrorText.innerText = 'Invalid name';
         nameField.classList.add('error');
         nameErrorLogo.style.display = 'block';
     }
@@ -42,11 +42,12 @@ function submitForm(event) {
 }
 
 function validateName(name) {
-    return name.length > 0;
+    const re = /^[A-Za-z\s]+$/;
+    return re.test(name);
 }
 
 function validateEmail(email) {
-    const re = /\S+@\S+\.\S+/;
+    const re = /\S+@\S+\.\S{2,3}$/;
     return re.test(email);
 }
 
