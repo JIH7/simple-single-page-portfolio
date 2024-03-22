@@ -291,6 +291,13 @@ form > div > p {
   line-height: 1rem; /* 133.333% */
   letter-spacing: -0.01044rem;
 }
+form input, form textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  letter-spacing: -0.01388rem;
+}
 form input[type=text], form input[type=email], form textarea {
   width: 100%;
   background-color: unset;
